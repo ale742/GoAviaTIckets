@@ -22,7 +22,7 @@ export const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/flight-route" className="hover:text-blue-200 transition-colors">
+              <Link href="/flight-routes" className="hover:text-blue-200 transition-colors">
                 Маршруты
               </Link>
             </li>
