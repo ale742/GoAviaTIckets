@@ -17,6 +17,11 @@ export const Header = () => {
               </Link>
             </li>
             <li>
+              <Link href="/help" className="hover:text-blue-200 transition-colors">
+                Справка
+              </Link>
+            </li>
+            <li>
               <Link href="/aircraft" className="hover:text-blue-200 transition-colors">
                 Самолеты
               </Link>

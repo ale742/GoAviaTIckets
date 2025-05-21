@@ -6,7 +6,7 @@ const linkItems = [
   { href: '/aircraft', icon: FaPlaneDeparture, title: 'Поиск самолетов', description: 'Найдите информацию по бортовому номеру или Mode-S.' },
   { href: '/airlines', icon: FaBuilding, title: 'Каталог авиакомпаний', description: 'Просмотрите авиакомпании по их кодам ICAO/IATA.' },
   { href: '/flight-routes', icon: FaRoute, title: 'Информация о маршрутах', description: 'Узнайте детали полета по позывному.' },
-  { href: '/api-status', icon: FaBroadcastTower, title: 'Справочник аэропортов', description: 'Информация об аэропортах по кодам.' },
+  { href: '/help', icon: FaBroadcastTower, title: 'Справочник аэропортов', description: 'Информация об аэропортах по кодам.' },
 ];
 
 const QuickSearchLinks = () => {
