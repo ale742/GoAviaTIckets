@@ -27,7 +27,7 @@ export const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/airline" className="hover:text-blue-200 transition-colors">
+              <Link href="/airlines" className="hover:text-blue-200 transition-colors">
                 Авиакомпании
               </Link>
             </li>
