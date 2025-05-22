@@ -8,6 +8,8 @@ const EXAMPLE_AIRCRAFT_IDS = [
   'G-XLEL',
   'B-LRA',
   'AD6FF2',
+  'A1B95F',
+  '398495',
 ];
 
 export default function AircraftSearchPage() {

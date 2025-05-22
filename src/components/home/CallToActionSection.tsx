@@ -18,7 +18,7 @@ const CallToActionSection = () => {
          <div className="flex flex-col sm:flex-row justify-center items-center space-y-3 sm:space-y-0 sm:space-x-3">
           <Link
             href="/aircraft"
-            className="inline-flex items-center justify-center px-4 py-2rounded-md text-sm font-medium bg-white text-blue-600 hover:bg-gray-200  dark:bg-gray-200 dark:text-blue-700 dark:hover:bg-gray-300 transition-colors duration-150"
+            className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium bg-white text-blue-600 hover:bg-gray-200  dark:bg-gray-200 dark:text-blue-700 dark:hover:bg-gray-300 transition-colors duration-150"
           >
             Искать самолеты
           </Link>
