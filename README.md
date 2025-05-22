@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GoAviaTickets
 
-## Getting Started
+GoAviaTickets — это веб-приложение, созданное для предоставления удобного доступа к информации о самолетах, авиакомпаниях и маршрутах полетов. Пользователи могут искать конкретные воздушные суда по регистрационному номеру или Mode-S коду, находить детали маршрутов по позывным рейсов, а также просматривать информацию об авиакомпаниях по их ICAO/IATA кодам.
 
-First, run the development server:
+## Основные функции
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+*   **Поиск самолетов:** Получение детальной информации о воздушном судне (тип, производитель, владелец, страна регистрации, фото) по его регистрационному номеру или Mode-S коду.
+*   **Поиск маршрутов полетов:** Информация об аэропортах вылета и назначения, данных авиакомпании для указанного позывного рейса.
+*   **Поиск авиакомпаний:** Данные об авиакомпаниях (название, страна, коды ICAO/IATA) по их коду.
+*   **Каталог примеров самолетов:** Отображение предопределенного списка самолетов с возможностью клиентской сортировки.
+*   **История поиска:** Отображение недавно просмотренных маршрутов и авиакомпаний для быстрого доступа.
+*   **Информационные страницы:** "О проекте", "Справка", "Контакты".
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Используемые технологии
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+*   **Frontend:**
+    *   Next.js
+    *   TypeScript
+    *   Tailwind CSS
+    *   Zustand
+    *   Axios
+    *   React Icons
+    *   Shadcn/ui
+*   **API:**
+    *   [ADS-B Data by adsbdb.com](https://www.adsbdb.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Инструкция по запуску
 
-## Learn More
+Для запуска проекта локально выполните следующие шаги:
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Клонируйте репозиторий:**
+    ```bash
+    git clone [https://github.com/ale742/GoAviaTIckets.git]
+    cd go-avia-tickets
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  **Установите зависимости:**
+    Убедитесь, что у вас установлен Node.js и npm/yarn.
+    ```bash
+    npm install
+    # или
+    yarn install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3.  **Запустите сервер для разработки:**
+    ```bash
+    npm run dev
+    # или
+    yarn dev
+    ```
 
-## Deploy on Vercel
+4.  **Откройте приложение в браузере:**
+    Перейдите по адресу [http://localhost:3000].
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Использование инструментов искусственного интеллекта (ИИ)
+В процессе разработки данного проекта использовались следующие инструменты ИИ:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*   **Инструмент ИИ:** [ChatGPT](https://chat.openai.com/) | [GitHub Copilot](https://github.com/features/copilot)
+*   **Задачи, для которых применялся ИИ:**
+    *   Помощь в написании и отладке кода.
+    *   Генерация примеров текстового контента для страниц (например, "О нас", "Справка").
+    *   Предложение идей для новых функций и страниц.
+    *   Объяснение концепций и поиск решений для возникающих проблем в разработке.
+
+## Разработчики
+
+*   Алексей ([https://github.com/ale742])
+*   Аслан ([https://github.com/Wheazzyy1])
